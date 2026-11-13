@@ -6,10 +6,10 @@ using namespace std;
 // Fungsi utama program
 int main()
 {
-    tambahKurir("K01", "Farrel");
-    tambahKurir("K02", "Barret");
-    tambahKurir("K03", "Acaa");
-    tambahKurir("K04", "Julian Cogan");
+    kurir("K01", "Farrel");
+    kurir("K02", "Barret");
+    kurir("K03", "Acaa");
+    kurir("K04", "Julian Cogan");
 
     int pilihan;
 

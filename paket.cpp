@@ -64,7 +64,7 @@ void lihatPaket() {
 
             Paket* paket = kurir->headPaket;
             while (paket != nullptr) {
-                cout << "Nomor Resi : " << paket->noResi
+                cout << "\nNomor Resi : " << paket->noResi
                      << "\nPenerima   : " << paket->penerima
                      << "\nAlamat     : " << paket->alamat
                      << "\nBerat      : " << paket->berat << " kg\n";

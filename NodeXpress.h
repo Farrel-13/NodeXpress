@@ -31,7 +31,7 @@ int inputAngka(const string &pesan, int minimum, int maksimum);
 float inputBerat();
 string inputTeks(const string &pesan);
 
-void tambahKurir(const string &id, const string &nama);
+void kurir(const string &id, const string &nama);
 Kurir *cariKurir(const string &id);
 void tampilkanKurir();
 

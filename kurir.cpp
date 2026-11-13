@@ -45,7 +45,7 @@ float inputBerat()
             return berat;
         }
 
-        cout << "Berat harus lebih dari 0.\n";
+        cout << "Berat harus lebih dari 0 dan inputan harus berupa angka.\n";
         cin.clear();
         bersihkanInput();
     }
@@ -69,7 +69,7 @@ string inputTeks(const string &pesan)
 }
 
 // Fungsi untuk menambahkan kurir baru ke dalam daftar
-void tambahKurir(const string &id, const string &nama)
+void kurir (const string &id, const string &nama)
 {
     Kurir *baru = new Kurir{id, nama, nullptr, nullptr};
 
@@ -87,6 +87,7 @@ void tambahKurir(const string &id, const string &nama)
 
     bantu->next = baru;
 }
+
 // Fungsi untuk mencari kurir berdasarkan ID
 Kurir *cariKurir(const string &id)
 {
